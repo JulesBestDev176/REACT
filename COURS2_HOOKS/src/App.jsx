@@ -1,5 +1,5 @@
-import Composant from "./composants/Composant"
-import Toggle from "./composants/Toggle"
+import Composant from "./composants/Composant";
+import Toggle from "./composants/Toggle";
 import User from "./composants/user"
 function App() {
   const titre1 = "Bonjour"
