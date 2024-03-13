@@ -29,21 +29,26 @@ function User() {
                value={formData.firstname}
                placeholder="firstname"
                onChange={handleChange}
-        />
+        /><br/> <br/>
         <input type="text"
                name="lastname"
                value={formData.lastname}
                placeholder="lastname"
                onChange={handleChange}
-        />
+        /><br/> <br/>
         <input type="email"
                name="email"
                value={formData.email}
                placeholder="email"
                onChange={handleChange}
-        />
-        <input type="submit" value="Enregistrer"/>
+        /><br/> <br/>
+        <input type="submit" value="Enregistrer"/><br/> <br/>
       </form>
+      <div>
+        <p>Nom : {formData.firstname}</p>
+        <p>Prenom : {formData.lastname}</p>
+        <p>Email : {formData.email}</p>
+      </div>
     </div>
   )
 }
